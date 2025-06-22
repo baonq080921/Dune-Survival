@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dfdef7fc5c0315458f4b686524506ff, type: 3}
+  m_Name: New Key Mission
+  m_EditorClassIdentifier: 
+  missionName: Key Find Mission
+  missionDescription: You must local and defeat the key-holder to retrieve the key.Be
+    cautios , as this enemy is might be heavily guarded
+  key: {fileID: 1528735812325226258, guid: 12cd8247926b9b14fa627e116a4c762f, type: 3}
+  bossKey: {fileID: 5795559960973919676, guid: 1c929fa88c443524f949d106daf042b6, type: 3}
+  numberOfKeyEnemies: 3
+  numberOfKeyEnemiesBoss: 1
+  totalKey: 0
+  keyFound: 1

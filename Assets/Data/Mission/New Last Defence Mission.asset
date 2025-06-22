@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51c5ca6757639ee4c8101428b781a0e4, type: 3}
+  m_Name: New Last Defence Mission
+  m_EditorClassIdentifier: 
+  missionName: FinalDefense
+  missionDescription: Get  your way to the last level there will be a plane that
+    gonna take you out of here.But the plane need time to get ready and jet off so
+    you have to protect it until is 4ready
+  defenceBegun: 1
+  bossSpawned: 1
+  defenceDuration: 30
+  waveCoolDown: 5
+  bossTimeRespawn: 10
+  amountOfRespawnPoints: 3
+  respawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemiesPerWave: 2
+  possibleEnemies:
+  - {fileID: 8144457586834430594, guid: e507a2c89b44a0b4393a90c66a01d0d0, type: 3}
+  - {fileID: 6182207629877610168, guid: 28e323f16e81d54449824b4acf0ec03d, type: 3}
+  - {fileID: 4207225677520174184, guid: 587381ec72bcc474e8c6b514b888d646, type: 3}
+  - {fileID: 1107967654755160191, guid: dd9551fce34d2a545ae7721377f63214, type: 3}
+  - {fileID: 6381279645248595304, guid: 3bb32f8909dec0d41b647fd690db2f28, type: 3}
+  possibleBoss:
+  - {fileID: 5662880403159731360, guid: 4375ea28ab664e441822947ac5de409c, type: 3}
+  - {fileID: 109216203840857403, guid: 7ced9f725f3a78e4492c19c71688ec17, type: 3}
